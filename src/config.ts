@@ -16,28 +16,35 @@ export const siteConfig = {
       name: "EPUB Translator",
       description:
         "A multi-threaded Python tool to automate EPUB book translation by integrating with the Gemini API. Engineered for robust, unsupervised operation with a custom rate limiter, fault-tolerant auto-saving, and a dynamic glossary.",
-      link: "https://github.com/MohamadTaher",
+      link: "https://mohamadtaher.github.io/Verso/",
       skills: ["Python", "Gemini API", "Async Programming"],
+    },
+    {
+      name: "Recto Leaf",
+      description:
+        "An Android reading app built in Kotlin and Jetpack Compose as a fork of Mihon, extending it with a complete web novel reader and its own novel sources. Added paged and continuous reading modes, text-to-speech, per-novel find-and-replace rules, and an automated release build pipeline with GitHub Actions.",
+      link: "https://github.com/MohamadTaher/recto-leaf/releases/tag/v0.20.4",
+      skills: ["Kotlin", "Jetpack Compose", "Android"],
     },
     {
       name: "Connect Four Unlimited",
       description:
         "A mobile game for Android applying Object-Oriented Design (OOD) principles in Java for game logic and XML for the user interface. Managed the complete development lifecycle from concept to deployment.",
-      link: "https://github.com/MohamadTaher",
+      link: "https://github.com/MohamadTaher/ConnectFourGame/releases/tag/v1.0",
       skills: ["Java", "Android Studio", "Git"],
     },
     {
       name: "TutorMe",
       description:
         "A full-stack tutoring application using Java with an SQLite database for data management and an XML-based user interface. Built in an Agile environment with collaborative development.",
-      link: "https://github.com/macewanCS/F24_D1",
+      link: "https://github.com/MohamadTaher/TutorMe/releases/tag/App",
       skills: ["Java", "SQLite", "Agile"],
     },
   ],
   experience: [
     {
       company: "Dominarlo",
-      title: "Software Engineer Intern",
+      title: "Software Engineer",
       dateRange: "Oct 2025 – Present",
       bullets: [
         "Architected a full-stack AI educational platform by building a Meteor frontend and Flask backend, deploying the microservices via Docker Compose.",
